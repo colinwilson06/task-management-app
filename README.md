@@ -1,0 +1,100 @@
+# Task Management App
+
+A simple **fullstack Task Management App** built with **Vue.js** for frontend and **Python Flask** for backend, using **PostgreSQL** as database.  
+
+---
+
+## 💻 Tech Stack
+
+- **Frontend:** Vue.js 3
+- **Backend:** Python Flask
+- **Database:** PostgreSQL
+- **Authentication:** JWT (dummy login)
+- **Other:** Axios, Flask-Cors, python-dotenv, psycopg2
+
+---
+
+## 📂 Project Structure
+
+```bash
+task-app/
+├─ backend/
+│ ├─ auth/ # Authentication routes
+│ ├─ models/ # Database models
+│ ├─ routes/ # Task CRUD routes
+│ ├─ services/ # Business logic for tasks
+│ ├─ app.py # Flask main app
+│ ├─ config.py # Environment config
+│ ├─ database.py # Database connection
+│ └─ requirements.txt
+├─ frontend/
+│ ├─ components/ # Vue components (Login, TaskForm, TaskList, Toast)
+│ ├─ views/ # Pages (Home.vue, Dashboard.vue)
+│ ├─ router/ # Vue router
+│ ├─ App.vue
+│ └─ main.js
+├─ .gitignore
+
+```
+
+---
+
+## 🔧 Prerequisites
+
+- Python 3.11+
+- Node.js 18+
+- PostgreSQL
+- Git
+
+---
+
+## ⚙️ Setup & Run
+
+### 1. Backend
+
+1. Masuk ke folder backend:
+
+```bash
+cd backend
+```
+
+2. Buat virtual environment:
+
+```bash
+python -m venv venv
+```
+
+3. Aktifkan virtual environment:
+Windows:
+```bash
+venv\Scripts\activate
+```
+
+Linux / Mac:
+```bash
+source venv/bin/activate
+```
+
+4. Install dependencies:
+``` bash
+pip install -r requirements.txt
+```
+
+5. Buat .env file di folder backend (contoh):
+```bash
+DB_HOST=localhost
+DB_NAME=task_db
+DB_USER=postgres
+DB_PASSWORD=yourpassword
+DB_PORT=5432
+SECRET_KEY=your_jwt_secret
+```
+
+6. Jalankan Backend:
+```bash
+python app.py
+```
+Backend akan berjalan di http://127.0.0.1:5000/
+
+
+
