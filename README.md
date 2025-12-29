@@ -152,4 +152,5 @@ Login ini menggunakan dummy JWT.
 🎥 Video Demo
 
 Demo Aplikasi: https://youtu.be/v0nxsx1K90k 
+
 Arsitektur & Penjelasan Code: https://youtu.be/pPvmT-gQ3Dc
