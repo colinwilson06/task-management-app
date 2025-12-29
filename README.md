@@ -65,15 +65,15 @@ python -m venv venv
 ```
 
 3. Aktifkan virtual environment:
-Windows:
-```bash
-venv\Scripts\activate
-```
-
-Linux / Mac:
-```bash
-source venv/bin/activate
-```
+   
+   Windows:
+   ```bash
+   venv\Scripts\activate
+   ```
+   Linux / Mac:
+   ```bash
+   source venv/bin/activate
+   ```
 
 4. Install dependencies:
 ``` bash
@@ -148,3 +148,8 @@ Login ini menggunakan dummy JWT.
 4. Frontend form validation
 5. Light/Dark mode only on dashboard (not on login)
 
+
+🎥 Video Demo
+
+Demo Aplikasi: https://youtu.be/v0nxsx1K90k 
+Arsitektur & Penjelasan Code: https://youtu.be/pPvmT-gQ3Dc
